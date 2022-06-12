@@ -1,3 +1,11 @@
+## Fork Features
+This version eliminates the bugs with resetting the speed between episodes.
+This is customized to fast-forward a show at 3x speed in between spoken lines.
+The script has been altered to automatically launch, for full easy setup and no hotkey requirements upon loading MPV.
+Press Ctrl+J to disable.
+The hotkeys may have been altered from the original, so check the bottom of the script on speed-transition.lua to view the updates.
+
+
 ## speed-transition
 This is a lua script for the mpv media player. The purpose of this script is to speed up the video if no subtitles are visible for a certain amount of (user configurable) time. It is inspired by the [speed-between-subs](https://gist.github.com/bitingsock/47c5ba6466c63c68bcf991dd376f1d18) script.
 
